@@ -67,7 +67,7 @@ for x in wheel_centers:
 canvas.create_text(500, 470, text="Section: BSIT3-EV",
                    font=("Arial", 20, "bold"), fill="black")
 
-canvas.create_text(500, 510, text="Nathaniel Aligato",
+canvas.create_text(500, 510, text="Aligato, Nathaniel L.",
                    font=("Arial", 16), fill="black")
 
 
