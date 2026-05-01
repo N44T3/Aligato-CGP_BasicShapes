@@ -64,11 +64,13 @@ for x in wheel_centers:
     canvas.create_oval(x-15, wheel_y-15, x+15, wheel_y+15,
                        fill="black", outline="white", width=2)
 
-canvas.create_text(500, 470, text="Section: BSIT3-EV",
+canvas.create_text(500, 470, text="Aligato, Nathaniel L.",
                    font=("Arial", 20, "bold"), fill="black")
 
-canvas.create_text(500, 510, text="Aligato, Nathaniel L.",
-                   font=("Arial", 16), fill="black")
+canvas.create_text(500, 510, text="BSIT3-EV",
+                   font=("Arial", 15, "bold"), fill="black")
+
+
 
 
 window.mainloop()
