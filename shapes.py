@@ -29,7 +29,7 @@ canvas.create_polygon(50, 400, 100, 250, 100, 400, fill=dark_green, outline=blac
 # Window
 canvas.create_rectangle(160, 280, 240, 360, fill=gray, outline=black, width=3)
 
-# Chimney
+# Chimney (LABASAN NG USOK)
 canvas.create_rectangle(170, 140, 210, 250, fill=blue, outline=black, width=2)
 
 # Top triangle
@@ -50,7 +50,7 @@ canvas.create_rectangle(640, 280, 720, 340, fill=gray, outline=black, width=3)
 canvas.create_rectangle(730, 280, 810, 340, fill=gray, outline=black, width=3)
 
 
-# CONNECTORS
+# CONNECTORS TO PRE
 canvas.create_rectangle(300, 370, 360, 400, fill="brown", outline=black)
 canvas.create_rectangle(560, 370, 620, 400, fill="brown", outline=black)
 
@@ -70,5 +70,5 @@ canvas.create_text(500, 470, text="Section: BSIT3-EV",
 canvas.create_text(500, 510, text="Nathaniel Aligato",
                    font=("Arial", 16), fill="black")
 
-# Run
+
 window.mainloop()
